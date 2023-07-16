@@ -1,0 +1,16 @@
+/*
+/*/
+
+!/.gitignore
+!/.gitmodules
+
+!/README.md
+!/alacritty
+!/astronvim
+!/i3
+!/kitty
+!/nvim
+!/picom
+!/polybar
+!/tmux
+!/zsh
