@@ -1,2 +1,2 @@
-# config
-dotfiles
+# configuration
+store .config folder
