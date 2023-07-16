@@ -1,4 +1,5 @@
-alt - return : open -n /Applications/Alacritty.app --args --config-file ~/.config/alacritty/alacritty-darwin.yaml
+alt - o : open -na /Applications/Alacritty.app --args --config-file ~/.config/alacritty/alacritty-darwin.yaml
+alt - return : open -na /Applications/kitty.app 
 
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north

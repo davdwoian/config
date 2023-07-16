@@ -35,7 +35,7 @@ window:
   decorations: buttonless
 
   # Background opacity
-  opacity: 0.90
+  opacity: 0.80
 
   option_as_alt: Both
   startup_mode: Windowed
@@ -87,12 +87,10 @@ cursor:
 #     - -s
 #     - main
 #
-# shell:
-#    program: /bin/zsh
-#    args:
-#      - --login
-#      - -c
-#      - "tmux new -A -D -s main"
+shell:
+   program: /bin/zsh
+   args:
+     - --login
 
 mouse:
   # Click settings
