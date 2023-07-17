@@ -1,10 +1,10 @@
 #! /bin/bash
 #set -x
 
-Path=~/.config/i3/scripts/wallpaper
+Path=~/.config/i3/scripts/wallpaper/
 files=($(ls ${Path} | grep -E 'png|jpg'))
 len=${#files[*]}
-index=`head --lines=1 ~/./index.txt`
+index=`head --lines=1 ${Path}index.txt`
 
 if [[ $1 == -1 ]]
 then
@@ -31,4 +31,4 @@ then
 	feh --bg-fill ${Path}${files[${index}]}
 fi
 
-echo $index > ~/.config/wallpaper/index.txt
+echo $index > ${Path}index.txt

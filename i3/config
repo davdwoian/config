@@ -17,18 +17,14 @@ set $alt Mod1
 font pango:monospace 8
 
 
+set $scripts ~/.config/i3/scripts
 
-
-
-exec_always picom
-exec_always ~/.config/polybar/launch.sh
-exec_always ~/.config/wallpaper/wallpaper.sh -1
-
-set $scripts ~/.config/i3/config/scripts
+exec_always exec  ~/.config/polybar/launch.sh
+exec_always exec $scripts/wallpaper/wallpaper.sh -1
 
 bindsym $mod+Return exec kitty
 bindsym $mod+Shift+Return exec alacritty
-bindsym $mod+space exec dolphin
+# bindsym $mod+space exec dolphin
 bindsym $alt+space exec rofi -show drun
 bindsym $alt+Up exec $scripts/wallpaper/wallpaper.sh 0
 bindsym $alt+Left exec $scripts/wallpaper/wallpaper.sh 1
