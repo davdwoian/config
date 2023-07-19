@@ -25,7 +25,7 @@ exec_always exec $scripts/wallpaper/wallpaper.sh -1
 
 bindsym $mod+Return exec alacritty
 bindsym $mod+space exec thunar
-bindsym $alt+space exec rofi -disable-history -show drun
+bindsym $alt+space exec rofi -show drun
 bindsym $alt+Up exec $scripts/wallpaper/wallpaper.sh 0
 bindsym $alt+Left exec $scripts/wallpaper/wallpaper.sh 1
 bindsym $alt+Right exec $scripts/wallpaper/wallpaper.sh 2
